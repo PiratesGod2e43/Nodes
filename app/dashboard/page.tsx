@@ -1,0 +1,2 @@
+import Panel from "../../components/Layout";
+export default function Dashboard(){return <Panel><div className="hero"><p className="muted">Welcome back</p><h1 className="title">PiratesNodes Dashboard</h1><p className="muted">Manage Minecraft servers, resources, backups, billing and split servers.</p></div><div className="grid">{[["Servers","3"],["RAM Used","20 / 64 GB"],["Storage","140 / 500 GB"],["Uptime","99.9%"]].map(x=><div className="card" key={x[0]}><div className="muted">{x[0]}</div><div className="big">{x[1]}</div></div>)}</div></Panel>}

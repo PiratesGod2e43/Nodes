@@ -1,0 +1,2 @@
+import Panel from "../../components/Layout";
+export default function Admin(){return <Panel><h1 className="title">Admin Panel</h1><div className="grid">{["Users","Servers","Nodes","Payments","Redeem Codes","Tickets","Backups","Audit Logs"].map(x=><div className="card" key={x}><h2>{x}</h2><button className="btn secondary">Manage</button></div>)}</div></Panel>}

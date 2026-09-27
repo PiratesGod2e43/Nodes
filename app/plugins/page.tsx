@@ -1,0 +1,2 @@
+import Panel from "../../components/Layout";
+export default function Plugins(){return <Panel><h1 className="title">Plugin Installer</h1><div className="card"><input className="input" placeholder="Search plugins..."/><div className="row"><span>EssentialsX</span><button className="btn">Install</button></div></div></Panel>}

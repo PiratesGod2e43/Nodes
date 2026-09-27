@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function Home(){return <div className="center"><div className="auth"><div className="hero"><div className="brand">🏴‍☠️ PIRATES<span>NODES</span></div><h1>Powerful Minecraft Hosting</h1><p className="muted">Custom hosting panel with automatic deployment and Server Splitter.</p><Link className="btn" href="/login">Open Panel</Link></div></div></div>}

@@ -1,0 +1,2 @@
+import Panel from "../../components/Layout";
+export default function Backups(){return <Panel><h1 className="title">Backups</h1><div className="card"><div className="row"><span>Automatic backups</span><button className="btn">Create Backup</button></div></div></Panel>}

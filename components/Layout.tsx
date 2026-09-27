@@ -1,0 +1,2 @@
+import {ReactNode} from "react"; import Sidebar from "./Sidebar"; import Top from "./Top";
+export default function Panel({children}:{children:ReactNode}){return <div className="shell"><Top/><div className="wrap"><Sidebar/><main className="main">{children}</main></div></div>}

@@ -1,0 +1,1 @@
+export default function Top(){return <header className="top"><div className="brand">🏴‍☠️ PIRATES<span>NODES</span></div><div className="muted">Owner Panel</div></header>}

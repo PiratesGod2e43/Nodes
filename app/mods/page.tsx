@@ -1,0 +1,2 @@
+import Panel from "../../components/Layout";
+export default function Mods(){return <Panel><h1 className="title">Mod Installer</h1><div className="card"><input className="input" placeholder="Search mods..."/><div className="row"><span>Example Mod</span><button className="btn">Install</button></div></div></Panel>}

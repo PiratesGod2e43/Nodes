@@ -1,0 +1,2 @@
+import Panel from "../../components/Layout";
+export default function Billing(){const plans=[["2 GB","₹49"],["4 GB","₹99"],["8 GB","₹179"],["12 GB","₹259"],["16 GB","₹349"],["32 GB","₹699"],["64 GB","₹1,299"]];return <Panel><h1 className="title">Hosting Plans</h1><div className="grid">{plans.map(p=><div className="card plan" key={p[0]}><h2>{p[0]} RAM</h2><div className="price">{p[1]}<small>/mo</small></div><span className="muted">NVMe • DDoS-ready network • backups available</span><button className="btn">Choose Plan</button></div>)}</div></Panel>}

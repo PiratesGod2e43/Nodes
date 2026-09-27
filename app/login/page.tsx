@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function Login(){return <div className="center"><div className="auth card"><div className="brand">🏴‍☠️ PIRATES<span>NODES</span></div><h1>Login</h1><label>Email / Username</label><input className="input"/><label>Password</label><input className="input" type="password"/><Link className="btn" href="/dashboard">Login</Link><p className="muted">New user? <Link href="/register">Register</Link></p></div></div>}

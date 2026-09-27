@@ -1,0 +1,2 @@
+import Panel from "../../components/Layout";
+export default function Redeem(){return <Panel><div className="card" style={{maxWidth:600}}><h1 className="title">Redeem Code</h1><p className="muted">Enter a valid PiratesNodes promotion code.</p><input className="input" placeholder="PIRATES20"/><button className="btn green">Redeem</button><hr/><h2>PIRATES20</h2><p>Example reward: <b>FREE 8 GB Minecraft Server</b></p><p className="muted">Production redemption must be validated by the backend.</p></div></Panel>}
